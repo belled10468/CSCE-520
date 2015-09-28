@@ -1,0 +1,20 @@
+Greedy manhattan
+Cost: 210
+Path: Node[Lafayette]->Node[b]->Node[d]->Node[f]->Node[Houston]
+-------------------------------------------------------------------------------------
+Greedy BioLab
+Cost: 210
+Path: Node[Lafayette]->Node[b]->Node[d]->Node[f]->Node[Houston]
+-------------------------------------------------------------------------------------
+AStar manhattan
+Cost: 155
+Path: Node[Lafayette]->Node[c]->Node[e]->Node[h]->Node[Houston]
+-------------------------------------------------------------------------------------
+AStar BioLab
+Cost: 155
+Path: Node[Lafayette]->Node[c]->Node[e]->Node[h]->Node[Houston]
+-------------------------------------------------------------------------------------
+
+Comment:
+1. Eventhough Greedy search takes least cost everytime, it ends up having very bad consequence, causing by ignoring potentially lower cost path. 
+2. We can see that after applied the Astar, the progarm gave totally different results, because of the effect of path cost.
