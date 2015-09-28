@@ -1,0 +1,1 @@
+Recently when I recheck the result of my program I found that my AStar result is wrong, so I examine my result. I found that it is caused by I use float("inf") for dijstra alogorithm, so in this version, I changed back to my original definition using None to express unvisited poi.nt path cost
